@@ -1,0 +1,232 @@
+.igs-border-box {
+    box-sizing: border-box;
+}
+.igs-radius-50 {
+    border-radius: 50%;
+}
+.igs-radius-20 {
+    border-radius: 20px;
+}
+.igs-border-black {
+    border: 2px solid black;
+}
+.igs-border-navy {
+    border: 2px solid navy;
+}
+.igs-texte-none {
+    text-decoration: none;
+}
+.igs-txt-center {
+    text-align: center;
+}
+.igs-list-none {
+    list-style: none;
+}
+.igs-position-fixed {
+    position: fixed;
+}
+.igs-position-top {
+    top: 0;
+}
+.igs-hover:hover {
+    background-color: navy;
+}
+.igs-hover:hover {
+    color: white;
+}
+.igs-opacity:hover {
+    opacity: 0.7;
+}    
+
+/*********** 
+                fond-family, fond-seize, fond-weight & fond-style
+************/
+.igs-fond-verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.igs-fond-time_new_roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+.igs-fond-1 {
+    font-size: 1rem;
+}
+.igs-fond-2 {
+    font-size: 1.8em;
+}
+.igs-fond-3 {
+    font-size: 4em;
+}
+.igs-fond-4 {
+    font-size: 1.1em;
+}
+/*********** 
+                Fin fond-family, fond-seize, fond-weight & fond-style
+************/
+
+
+
+/*********** 
+                Padding & margin
+************/
+.igs-width-auto {
+    width: auto;
+}
+.igs-width-70 {
+    width: 70px;
+}
+.igs-width-200 {
+    width: 200px;
+}
+.igs-width-100 {
+    width: 100%;
+}
+.igs-width-300 {
+    width: 300px;
+}
+.igs-width-400 {
+    width: 400px;
+}
+.igs-width-600 {
+    width: 600px;
+}
+.igs-height-auto {
+    height: auto;
+}
+.igs-height-5 {
+    height: 5px;
+}
+.igs-height-50 {
+    height: 50px;
+}
+.igs-height-60 {
+    height: 60px;
+}
+.igs-height-100 {
+    height: 350px;
+}
+.igs-height-700 {
+    height: 700px;
+}
+.igs-padding-0 {
+    padding: 0;
+}
+.igs-padding-15 {
+    padding: 0 15px;
+}
+.igs-padding-20 {
+    padding: 20px;
+}
+.igs-padding-70 {
+    padding: 70px;
+}
+.igs-margin-0 {
+    margin: 0;
+}
+.igs-margin-60 {
+    margin-top: -60px;
+}
+.igs-margin-20 {
+    margin: 20px;
+}
+
+/*********** 
+                Fin Padding & margin
+************/
+
+
+
+/*********** 
+                background
+************/
+.igs-background-blue {
+    background-color: navy;
+}
+.igs-background-black {
+    background-color: black;
+}
+.igs-backbround-transparent {
+    background-color: rgba(0, 0, 255, 0.226);
+}
+
+.igs-background-image {
+    background: url(../images/AdobeStock_136283864.jpeg) center center / cover no-repeat scroll;
+}
+
+/*********** 
+                Fin background
+************/
+
+
+
+/*********** 
+                Flexbox
+************/
+.igs-display-flex {
+    display: flex;
+}
+.igs-flex-row {
+    flex-direction: row;
+}
+.igs-flex-column {
+    flex-direction: column;
+}
+.igs-justify-center {
+    justify-content: center;
+}
+.igs-items-center {
+    align-items: center;
+}
+.igs-items-end {
+    align-items: flex-end;
+}
+.igs-justify-around{
+    justify-content: space-around;
+}
+.igs-justify-between {
+    justify-content: space-between;
+}
+/*********** 
+                Fin Flexbox
+************/
+
+
+
+
+/*********** 
+                Grid
+************/
+.igs-grid {
+    display: grid;
+}
+.igs-grid-column {
+    grid-template-columns: repeat(3, 1fr);
+}
+/*********** 
+                Fin Grid
+************/
+
+
+
+
+/************
+                les couleurs 
+************/
+.igs-txt-red {
+    color: #E01411;
+}
+.igs-txt-blue {
+    color: blue;
+}
+.igs-txt-navy {
+    color: navy;
+}
+.igs-txt-black {
+    color: black;
+}
+.igs-txt-white {
+    color: white;
+}
+/************
+                fin les couleurs 
+************/
+
