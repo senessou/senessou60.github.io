@@ -1,4 +1,4 @@
-.igs-border-box {
+.igs-box-sizing {
     box-sizing: border-box;
 }
 .igs-radius-50 {
@@ -25,11 +25,14 @@
 .igs-position-fixed {
     position: fixed;
 }
+.igs-position-bottom {
+    bottom: 0;
+}
 .igs-position-top {
     top: 0;
 }
 .igs-hover:hover {
-    background-color: navy;
+    background-color: #000080;
 }
 .igs-hover:hover {
     color: white;
@@ -54,7 +57,7 @@
     font-size: 1.8em;
 }
 .igs-fond-3 {
-    font-size: 4em;
+    font-size: 7em;
 }
 .igs-fond-4 {
     font-size: 1.1em;
@@ -71,8 +74,11 @@
 .igs-width-auto {
     width: auto;
 }
+.igs-width-max {
+    width: 100vw;
+}
 .igs-width-70 {
-    width: 70px;
+    width: 40px;
 }
 .igs-width-200 {
     width: 200px;
@@ -89,6 +95,9 @@
 .igs-width-600 {
     width: 600px;
 }
+.igs-heigth-max {
+    height: 100vh;
+}
 .igs-height-auto {
     height: auto;
 }
@@ -104,11 +113,20 @@
 .igs-height-100 {
     height: 350px;
 }
+.igs-height-400 {
+    height: 385px;
+}
 .igs-height-700 {
     height: 700px;
 }
 .igs-padding-0 {
     padding: 0;
+}
+.igs-padding-top {
+    padding-top: 50px;
+}
+.igs-padding-10 {
+    padding: 10px;
 }
 .igs-padding-15 {
     padding: 0 15px;
@@ -149,7 +167,7 @@
 }
 
 .igs-background-image {
-    background: url(../images/AdobeStock_136283864.jpeg) center center / cover no-repeat scroll;
+    background: url(../images/AdobeStock_136283864.jpeg) center / cover no-repeat;
 }
 
 /*********** 
